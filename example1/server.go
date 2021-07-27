@@ -1,7 +1,7 @@
 package main
 
 import (
-	"grpctt/chat"
+	"grpctt/example1/chat"
 	"log"
 	"net"
 

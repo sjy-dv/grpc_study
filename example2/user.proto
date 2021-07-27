@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./";
+
+message Message {
+    string body = 1;
+}
+
+message UserIdx {
+    int32 idx = 1;
+}
+
+message User {
+    int32 idx = 1;
+    string name = 2;
+    string user_id = 3;
+    string password = 4;
+}
+
+service HelloWorld {
+    rpc SayHello(Message) returns (Message){}
+    rpc GetUser(UserIdx) returns (User){}
+ }
