@@ -9,3 +9,8 @@
 # example2
 
 ### - dummydata를 이용한 grpc통신
+
+
+# example3
+
+### - mysql-gorm을 이용한 grpc통신
