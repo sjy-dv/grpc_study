@@ -1,4 +1,4 @@
-module grpctt
+//module grpctt
 
 go 1.16
 

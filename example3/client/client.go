@@ -17,7 +17,7 @@ func main() {
 
 	defer conn.Close()
 
-	c := user.NewHelloWorldClient(conn)
+	c := user.NewRpcAppClient(conn)
 
 	message := user.Message{
 		Body : "test message",
